@@ -1,0 +1,1523 @@
+The system is: Linux - 6.0.12-1.surface.fc37.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/rainman/Documents/build/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/rainman/Documents/build/CMakeFiles/3.25.2/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-DGGb24
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2041/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2041.dir/build.make CMakeFiles/cmTC_f2041.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-DGGb24'
+Building CXX object CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2041.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f2041.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIE -o /tmp/cc1XYXZl.s
+GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
+	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12
+ /usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux
+ /usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward
+ /usr/lib/gcc/x86_64-redhat-linux/12/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
+	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b80dcb4218100c8bed4b8384479def9a
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2041.dir/'
+ as -v --64 -o CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1XYXZl.s
+GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_f2041
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2041.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f2041 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2041' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2041.'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC29uJE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f2041 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2041' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2041.'
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-DGGb24'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-redhat-linux/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux] ==> [/usr/include/c++/12/x86_64-redhat-linux]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/12/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/c++/12/x86_64-redhat-linux;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-redhat-linux/12/include;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-DGGb24]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2041/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2041.dir/build.make CMakeFiles/cmTC_f2041.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-DGGb24']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2041.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f2041.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fPIE -o /tmp/cc1XYXZl.s]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b80dcb4218100c8bed4b8384479def9a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2041.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1XYXZl.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_f2041]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2041.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f2041 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2041' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2041.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccC29uJE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f2041 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccC29uJE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f2041] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/12] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/12/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../..]
+    arg [CMakeFiles/cmTC_f2041.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/crtend.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/12] ==> [/usr/lib/gcc/x86_64-redhat-linux/12]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/12/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/12;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-1lbnqT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13beb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13beb.dir/build.make CMakeFiles/cmTC_13beb.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-1lbnqT'
+Building C object CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13beb.dir/'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_13beb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccKyyTlN.s
+GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
+	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-redhat-linux/12/include
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)
+	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4), GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e7cfb398591188071efa3be810fe2962
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13beb.dir/'
+ as -v --64 -o CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o /tmp/ccKyyTlN.s
+GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_13beb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13beb.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o -o cmTC_13beb 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13beb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_13beb.'
+ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCDRDzm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_13beb /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13beb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_13beb.'
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-1lbnqT'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-redhat-linux/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/12/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/12/include;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-1lbnqT]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13beb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13beb.dir/build.make CMakeFiles/cmTC_13beb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-1lbnqT']
+  ignore line: [Building C object CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13beb.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_13beb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccKyyTlN.s]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.2.1 20221121 (Red Hat 12.2.1-4) (x86_64-redhat-linux)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221121 (Red Hat 12.2.1-4)  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e7cfb398591188071efa3be810fe2962]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13beb.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o /tmp/ccKyyTlN.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-redhat-linux) using BFD version version 2.38-25.fc37]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_13beb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13beb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o -o cmTC_13beb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-12.2.1-20221121/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-offload-defaulted --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221121 (Red Hat 12.2.1-4) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13beb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_13beb.']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/12/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCDRDzm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_13beb /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCDRDzm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_13beb] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/12] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/12/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../..]
+    arg [CMakeFiles/cmTC_13beb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/crtend.o]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/12] ==> [/usr/lib/gcc/x86_64-redhat-linux/12]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/12/crtend.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/12;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Bq3Hy9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2b1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2b1d.dir/build.make CMakeFiles/cmTC_c2b1d.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Bq3Hy9'
+Building C object CMakeFiles/cmTC_c2b1d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_c2b1d.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Bq3Hy9/CheckIncludeFile.c
+Linking C executable cmTC_c2b1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b1d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c2b1d.dir/CheckIncludeFile.c.o -o cmTC_c2b1d 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Bq3Hy9'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-m6mgSY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_baefb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_baefb.dir/build.make CMakeFiles/cmTC_baefb.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-m6mgSY'
+Building C object CMakeFiles/cmTC_baefb.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_baefb.dir/CheckSymbolExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-m6mgSY/CheckSymbolExists.c
+Linking C executable cmTC_baefb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baefb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_baefb.dir/CheckSymbolExists.c.o -o cmTC_baefb 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-m6mgSY'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tqqUHB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1412a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1412a.dir/build.make CMakeFiles/cmTC_1412a.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tqqUHB'
+Building C object CMakeFiles/cmTC_1412a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1412a.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tqqUHB/CheckIncludeFile.c
+Linking C executable cmTC_1412a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1412a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1412a.dir/CheckIncludeFile.c.o -o cmTC_1412a 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tqqUHB'
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Z2FNPg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08c4b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08c4b.dir/build.make CMakeFiles/cmTC_08c4b.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Z2FNPg'
+Building C object CMakeFiles/cmTC_08c4b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_08c4b.dir/CheckSymbolExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Z2FNPg/CheckSymbolExists.c
+Linking C executable cmTC_08c4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08c4b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_08c4b.dir/CheckSymbolExists.c.o -o cmTC_08c4b 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Z2FNPg'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-qdtvhj
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da5c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da5c4.dir/build.make CMakeFiles/cmTC_da5c4.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-qdtvhj'
+Building C object CMakeFiles/cmTC_da5c4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_da5c4.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-qdtvhj/CheckIncludeFile.c
+Linking C executable cmTC_da5c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da5c4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_da5c4.dir/CheckIncludeFile.c.o -o cmTC_da5c4 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-qdtvhj'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-ZqvrBG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b3a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b3a2.dir/build.make CMakeFiles/cmTC_5b3a2.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-ZqvrBG'
+Building C object CMakeFiles/cmTC_5b3a2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5b3a2.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-ZqvrBG/CheckIncludeFile.c
+Linking C executable cmTC_5b3a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b3a2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5b3a2.dir/CheckIncludeFile.c.o -o cmTC_5b3a2 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-ZqvrBG'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tj8CCY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20637/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20637.dir/build.make CMakeFiles/cmTC_20637.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tj8CCY'
+Building C object CMakeFiles/cmTC_20637.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_20637.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tj8CCY/CheckIncludeFile.c
+Linking C executable cmTC_20637
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20637.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_20637.dir/CheckIncludeFile.c.o -o cmTC_20637 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tj8CCY'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tnwr4I
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25ed7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25ed7.dir/build.make CMakeFiles/cmTC_25ed7.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tnwr4I'
+Building C object CMakeFiles/cmTC_25ed7.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_25ed7.dir/SIZEOF_SIZE_T.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tnwr4I/SIZEOF_SIZE_T.c
+Linking C executable cmTC_25ed7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25ed7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_25ed7.dir/SIZEOF_SIZE_T.c.o -o cmTC_25ed7 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Tnwr4I'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yLfSgr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f247/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f247.dir/build.make CMakeFiles/cmTC_4f247.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yLfSgr'
+Building C object CMakeFiles/cmTC_4f247.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4f247.dir/SIZEOF_UNSIGNED_LONG.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yLfSgr/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_4f247
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f247.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4f247.dir/SIZEOF_UNSIGNED_LONG.c.o -o cmTC_4f247 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yLfSgr'
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CUlJcT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5bdb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5bdb3.dir/build.make CMakeFiles/cmTC_5bdb3.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CUlJcT'
+Building C object CMakeFiles/cmTC_5bdb3.dir/src.c.o
+/usr/bin/cc -DHAVE_BUILTIN_CTZL  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5bdb3.dir/src.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CUlJcT/src.c
+Linking C executable cmTC_5bdb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bdb3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5bdb3.dir/src.c.o -o cmTC_5bdb3 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CUlJcT'
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Y8D6Pw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f66b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f66b9.dir/build.make CMakeFiles/cmTC_f66b9.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Y8D6Pw'
+Building C object CMakeFiles/cmTC_f66b9.dir/HAVE_LOCALE_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f66b9.dir/HAVE_LOCALE_H.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Y8D6Pw/HAVE_LOCALE_H.c
+Linking C executable cmTC_f66b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f66b9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f66b9.dir/HAVE_LOCALE_H.c.o -o cmTC_f66b9 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Y8D6Pw'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MDqVbf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69ab0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69ab0.dir/build.make CMakeFiles/cmTC_69ab0.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MDqVbf'
+Building C object CMakeFiles/cmTC_69ab0.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_69ab0.dir/HAVE_STDLIB_H.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MDqVbf/HAVE_STDLIB_H.c
+Linking C executable cmTC_69ab0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69ab0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_69ab0.dir/HAVE_STDLIB_H.c.o -o cmTC_69ab0 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MDqVbf'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MkrSH4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b5a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b5a0.dir/build.make CMakeFiles/cmTC_8b5a0.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MkrSH4'
+Building C object CMakeFiles/cmTC_8b5a0.dir/NEED_SYS_TYPES_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8b5a0.dir/NEED_SYS_TYPES_H.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MkrSH4/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_8b5a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b5a0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8b5a0.dir/NEED_SYS_TYPES_H.c.o -o cmTC_8b5a0 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MkrSH4'
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PGW1cR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_71409/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_71409.dir/build.make CMakeFiles/cmTC_71409.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PGW1cR'
+Building C object CMakeFiles/cmTC_71409.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_71409.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PGW1cR/CheckIncludeFile.c
+Linking C executable cmTC_71409
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71409.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_71409.dir/CheckIncludeFile.c.o -o cmTC_71409 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PGW1cR'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-03l4EU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a32f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a32f7.dir/build.make CMakeFiles/cmTC_a32f7.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-03l4EU'
+Building C object CMakeFiles/cmTC_a32f7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a32f7.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-03l4EU/CheckIncludeFile.c
+Linking C executable cmTC_a32f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a32f7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_a32f7.dir/CheckIncludeFile.c.o -o cmTC_a32f7 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-03l4EU'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dQoaxd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ceb9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ceb9.dir/build.make CMakeFiles/cmTC_4ceb9.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dQoaxd'
+Building C object CMakeFiles/cmTC_4ceb9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4ceb9.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dQoaxd/CheckIncludeFile.c
+Linking C executable cmTC_4ceb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ceb9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4ceb9.dir/CheckIncludeFile.c.o -o cmTC_4ceb9 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dQoaxd'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-4D9WGk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2d3a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d3a1.dir/build.make CMakeFiles/cmTC_2d3a1.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-4D9WGk'
+Building C object CMakeFiles/cmTC_2d3a1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_2d3a1.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-4D9WGk/CheckIncludeFile.c
+Linking C executable cmTC_2d3a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d3a1.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2d3a1.dir/CheckIncludeFile.c.o -o cmTC_2d3a1 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-4D9WGk'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MFPcuN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9522/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9522.dir/build.make CMakeFiles/cmTC_a9522.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MFPcuN'
+Building C object CMakeFiles/cmTC_a9522.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a9522.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MFPcuN/CheckIncludeFile.c
+Linking C executable cmTC_a9522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9522.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_a9522.dir/CheckIncludeFile.c.o -o cmTC_a9522 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MFPcuN'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dyhnBP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ef0b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ef0b.dir/build.make CMakeFiles/cmTC_4ef0b.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dyhnBP'
+Building C object CMakeFiles/cmTC_4ef0b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4ef0b.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dyhnBP/CheckIncludeFile.c
+Linking C executable cmTC_4ef0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ef0b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4ef0b.dir/CheckIncludeFile.c.o -o cmTC_4ef0b 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dyhnBP'
+
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-vgP0G1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b829/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b829.dir/build.make CMakeFiles/cmTC_1b829.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-vgP0G1'
+Building C object CMakeFiles/cmTC_1b829.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1b829.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-vgP0G1/CheckIncludeFile.c
+Linking C executable cmTC_1b829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b829.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1b829.dir/CheckIncludeFile.c.o -o cmTC_1b829 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-vgP0G1'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-s3Q2bX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e2b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e2b4.dir/build.make CMakeFiles/cmTC_2e2b4.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-s3Q2bX'
+Building C object CMakeFiles/cmTC_2e2b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_2e2b4.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-s3Q2bX/CheckIncludeFile.c
+Linking C executable cmTC_2e2b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e2b4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2e2b4.dir/CheckIncludeFile.c.o -o cmTC_2e2b4 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-s3Q2bX'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-8nH4s3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef14a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef14a.dir/build.make CMakeFiles/cmTC_ef14a.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-8nH4s3'
+Building C object CMakeFiles/cmTC_ef14a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ef14a.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-8nH4s3/CheckIncludeFile.c
+Linking C executable cmTC_ef14a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef14a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ef14a.dir/CheckIncludeFile.c.o -o cmTC_ef14a 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-8nH4s3'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-pcRKWR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb066/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb066.dir/build.make CMakeFiles/cmTC_eb066.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-pcRKWR'
+Building C object CMakeFiles/cmTC_eb066.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_eb066.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-pcRKWR/CheckIncludeFile.c
+Linking C executable cmTC_eb066
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb066.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_eb066.dir/CheckIncludeFile.c.o -o cmTC_eb066 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-pcRKWR'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-AvpFjJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91f3b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91f3b.dir/build.make CMakeFiles/cmTC_91f3b.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-AvpFjJ'
+Building C object CMakeFiles/cmTC_91f3b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_91f3b.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-AvpFjJ/CheckIncludeFile.c
+Linking C executable cmTC_91f3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f3b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_91f3b.dir/CheckIncludeFile.c.o -o cmTC_91f3b 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-AvpFjJ'
+
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeeded with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_378be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_378be.dir/build.make CMakeFiles/cmTC_378be.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7'
+Building C object CMakeFiles/cmTC_378be.dir/src.c.o
+/usr/bin/cc -DC_HAS_inline -Dinline=inline  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_378be.dir/src.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7/src.c
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7/src.c:3:29: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    3 |         static inline foo_t static_foo() {return 0;}
+      |                             ^~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7/src.c:4:15: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+    4 |         foo_t foo(){return 0;}
+      |               ^~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7/src.c: In function ‘main’:
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7/src.c:5:22: warning: unused parameter ‘argc’ [-Wunused-parameter]
+    5 |         int main(int argc, char *argv[]) {return 0;}
+      |                  ~~~~^~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7/src.c:5:34: warning: unused parameter ‘argv’ [-Wunused-parameter]
+    5 |         int main(int argc, char *argv[]) {return 0;}
+      |                            ~~~~~~^~~~~~
+Linking C executable cmTC_378be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_378be.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_378be.dir/src.c.o -o cmTC_378be 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-CTOUk7'
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+
+Determining size of signed short passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0eYu4C
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1271a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1271a.dir/build.make CMakeFiles/cmTC_1271a.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0eYu4C'
+Building C object CMakeFiles/cmTC_1271a.dir/SIZEOF_SIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1271a.dir/SIZEOF_SIGNED_SHORT.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0eYu4C/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTC_1271a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1271a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1271a.dir/SIZEOF_SIGNED_SHORT.c.o -o cmTC_1271a 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0eYu4C'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EkLa7O
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd3aa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd3aa.dir/build.make CMakeFiles/cmTC_dd3aa.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EkLa7O'
+Building C object CMakeFiles/cmTC_dd3aa.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_dd3aa.dir/SIZEOF_UNSIGNED_SHORT.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EkLa7O/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_dd3aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd3aa.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_dd3aa.dir/SIZEOF_UNSIGNED_SHORT.c.o -o cmTC_dd3aa 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EkLa7O'
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-o7GmC9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d3c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d3c7.dir/build.make CMakeFiles/cmTC_1d3c7.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-o7GmC9'
+Building C object CMakeFiles/cmTC_1d3c7.dir/SIZEOF_SIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1d3c7.dir/SIZEOF_SIGNED_INT.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-o7GmC9/SIZEOF_SIGNED_INT.c
+Linking C executable cmTC_1d3c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d3c7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1d3c7.dir/SIZEOF_SIGNED_INT.c.o -o cmTC_1d3c7 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-o7GmC9'
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-2qUuQU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c8b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c8b0.dir/build.make CMakeFiles/cmTC_1c8b0.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-2qUuQU'
+Building C object CMakeFiles/cmTC_1c8b0.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1c8b0.dir/SIZEOF_UNSIGNED_INT.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-2qUuQU/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_1c8b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c8b0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1c8b0.dir/SIZEOF_UNSIGNED_INT.c.o -o cmTC_1c8b0 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-2qUuQU'
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7xAWSb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cde89/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cde89.dir/build.make CMakeFiles/cmTC_cde89.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7xAWSb'
+Building C object CMakeFiles/cmTC_cde89.dir/SIZEOF_SIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_cde89.dir/SIZEOF_SIGNED_LONG.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7xAWSb/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTC_cde89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cde89.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_cde89.dir/SIZEOF_SIGNED_LONG.c.o -o cmTC_cde89 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7xAWSb'
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-bAAPnV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6cc53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6cc53.dir/build.make CMakeFiles/cmTC_6cc53.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-bAAPnV'
+Building C object CMakeFiles/cmTC_6cc53.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6cc53.dir/SIZEOF_SIGNED_LONG_LONG.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-bAAPnV/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTC_6cc53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cc53.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6cc53.dir/SIZEOF_SIGNED_LONG_LONG.c.o -o cmTC_6cc53 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-bAAPnV'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-cMeL0V
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b5a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b5a7.dir/build.make CMakeFiles/cmTC_5b5a7.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-cMeL0V'
+Building C object CMakeFiles/cmTC_5b5a7.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5b5a7.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-cMeL0V/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_5b5a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b5a7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5b5a7.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o -o cmTC_5b5a7 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-cMeL0V'
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-XGpBQY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_949c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_949c4.dir/build.make CMakeFiles/cmTC_949c4.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-XGpBQY'
+Building C object CMakeFiles/cmTC_949c4.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_949c4.dir/SIZEOF_UNSIGNED_CHAR_P.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-XGpBQY/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTC_949c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_949c4.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_949c4.dir/SIZEOF_UNSIGNED_CHAR_P.c.o -o cmTC_949c4 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-XGpBQY'
+
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-fqXPRI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_922fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_922fd.dir/build.make CMakeFiles/cmTC_922fd.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-fqXPRI'
+Building C object CMakeFiles/cmTC_922fd.dir/SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_922fd.dir/SIZEOF_PTRDIFF_T.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-fqXPRI/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTC_922fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_922fd.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_922fd.dir/SIZEOF_PTRDIFF_T.c.o -o cmTC_922fd 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-fqXPRI'
+
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WDm7F5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43371/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43371.dir/build.make CMakeFiles/cmTC_43371.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WDm7F5'
+Building C object CMakeFiles/cmTC_43371.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_43371.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WDm7F5/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WDm7F5/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WDm7F5/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_43371
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43371.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_43371.dir/CheckFunctionExists.c.o -o cmTC_43371  -lm 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WDm7F5'
+
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Jfupbd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e00a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e00a7.dir/build.make CMakeFiles/cmTC_e00a7.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Jfupbd'
+Building C object CMakeFiles/cmTC_e00a7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e00a7.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Jfupbd/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Jfupbd/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Jfupbd/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e00a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e00a7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e00a7.dir/CheckFunctionExists.c.o -o cmTC_e00a7  -lm 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Jfupbd'
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EpCVYA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0383/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0383.dir/build.make CMakeFiles/cmTC_c0383.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EpCVYA'
+Building C object CMakeFiles/cmTC_c0383.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_c0383.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EpCVYA/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EpCVYA/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EpCVYA/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c0383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0383.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c0383.dir/CheckFunctionExists.c.o -o cmTC_c0383  -lm 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-EpCVYA'
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PAOUqi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90e1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90e1f.dir/build.make CMakeFiles/cmTC_90e1f.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PAOUqi'
+Building C object CMakeFiles/cmTC_90e1f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_90e1f.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PAOUqi/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isascii’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PAOUqi/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_90e1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90e1f.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_90e1f.dir/CheckFunctionExists.c.o -o cmTC_90e1f 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-PAOUqi'
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7vqiBt
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c979e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c979e.dir/build.make CMakeFiles/cmTC_c979e.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7vqiBt'
+Building C object CMakeFiles/cmTC_c979e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_c979e.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7vqiBt/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7vqiBt/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7vqiBt/CheckFunctionExists.c:1:1: note: ‘memset’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_c979e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c979e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c979e.dir/CheckFunctionExists.c.o -o cmTC_c979e 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-7vqiBt'
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WXTQh2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e2b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e2b0.dir/build.make CMakeFiles/cmTC_3e2b0.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WXTQh2'
+Building C object CMakeFiles/cmTC_3e2b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_3e2b0.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WXTQh2/CheckFunctionExists.c
+Linking C executable cmTC_3e2b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e2b0.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3e2b0.dir/CheckFunctionExists.c.o -o cmTC_3e2b0 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-WXTQh2'
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-LN5w2I
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a31d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a31d9.dir/build.make CMakeFiles/cmTC_a31d9.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-LN5w2I'
+Building C object CMakeFiles/cmTC_a31d9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a31d9.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-LN5w2I/CheckFunctionExists.c
+Linking C executable cmTC_a31d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a31d9.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_a31d9.dir/CheckFunctionExists.c.o -o cmTC_a31d9 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-LN5w2I'
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eyo1nP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35255/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35255.dir/build.make CMakeFiles/cmTC_35255.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eyo1nP'
+Building C object CMakeFiles/cmTC_35255.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_35255.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eyo1nP/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memmove’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eyo1nP/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eyo1nP/CheckFunctionExists.c:1:1: note: ‘memmove’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_35255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35255.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_35255.dir/CheckFunctionExists.c.o -o cmTC_35255 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eyo1nP'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eh6zwq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2c2e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2c2e.dir/build.make CMakeFiles/cmTC_f2c2e.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eh6zwq'
+Building C object CMakeFiles/cmTC_f2c2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f2c2e.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eh6zwq/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_f2c2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2c2e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f2c2e.dir/CheckFunctionExists.c.o -o cmTC_f2c2e 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Eh6zwq'
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-91Uf9h
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0d37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0d37.dir/build.make CMakeFiles/cmTC_a0d37.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-91Uf9h'
+Building C object CMakeFiles/cmTC_a0d37.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a0d37.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-91Uf9h/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-91Uf9h/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-91Uf9h/CheckFunctionExists.c:1:1: note: ‘strchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_a0d37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0d37.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_a0d37.dir/CheckFunctionExists.c.o -o cmTC_a0d37 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-91Uf9h'
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-v1LTgP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_979c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_979c2.dir/build.make CMakeFiles/cmTC_979c2.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-v1LTgP'
+Building C object CMakeFiles/cmTC_979c2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_979c2.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-v1LTgP/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strrchr’; expected ‘char *(const char *, int)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-v1LTgP/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-v1LTgP/CheckFunctionExists.c:1:1: note: ‘strrchr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_979c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_979c2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_979c2.dir/CheckFunctionExists.c.o -o cmTC_979c2 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-v1LTgP'
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uPLtJH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b24f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b24f7.dir/build.make CMakeFiles/cmTC_b24f7.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uPLtJH'
+Building C object CMakeFiles/cmTC_b24f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b24f7.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uPLtJH/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strstr’; expected ‘char *(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uPLtJH/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uPLtJH/CheckFunctionExists.c:1:1: note: ‘strstr’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_b24f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24f7.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b24f7.dir/CheckFunctionExists.c.o -o cmTC_b24f7 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uPLtJH'
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-z6ysKV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0e8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0e8d.dir/build.make CMakeFiles/cmTC_e0e8d.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-z6ysKV'
+Building C object CMakeFiles/cmTC_e0e8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e0e8d.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-z6ysKV/CheckFunctionExists.c
+Linking C executable cmTC_e0e8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e8d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e0e8d.dir/CheckFunctionExists.c.o -o cmTC_e0e8d 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-z6ysKV'
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-VgPPKv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27dc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27dc3.dir/build.make CMakeFiles/cmTC_27dc3.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-VgPPKv'
+Building C object CMakeFiles/cmTC_27dc3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_27dc3.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-VgPPKv/CheckFunctionExists.c
+Linking C executable cmTC_27dc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27dc3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_27dc3.dir/CheckFunctionExists.c.o -o cmTC_27dc3 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-VgPPKv'
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-5jlobp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18572/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18572.dir/build.make CMakeFiles/cmTC_18572.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-5jlobp'
+Building C object CMakeFiles/cmTC_18572.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_18572.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-5jlobp/CheckFunctionExists.c
+Linking C executable cmTC_18572
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18572.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_18572.dir/CheckFunctionExists.c.o -o cmTC_18572 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-5jlobp'
+
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-33UW5P
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8cf09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8cf09.dir/build.make CMakeFiles/cmTC_8cf09.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-33UW5P'
+Building C object CMakeFiles/cmTC_8cf09.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_8cf09.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-33UW5P/CheckFunctionExists.c
+Linking C executable cmTC_8cf09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cf09.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8cf09.dir/CheckFunctionExists.c.o -o cmTC_8cf09 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-33UW5P'
+
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeeded with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-HCYAck
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01fa3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01fa3.dir/build.make CMakeFiles/cmTC_01fa3.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-HCYAck'
+Building C object CMakeFiles/cmTC_01fa3.dir/src.c.o
+/usr/bin/cc -DHAVE_SNPRINTF  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_01fa3.dir/src.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-HCYAck/src.c
+Linking C executable cmTC_01fa3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01fa3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_01fa3.dir/src.c.o -o cmTC_01fa3 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-HCYAck'
+
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-j1UYYv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b96a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b96a.dir/build.make CMakeFiles/cmTC_4b96a.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-j1UYYv'
+Building C object CMakeFiles/cmTC_4b96a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4b96a.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-j1UYYv/CheckIncludeFile.c
+Linking C executable cmTC_4b96a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b96a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_4b96a.dir/CheckIncludeFile.c.o -o cmTC_4b96a 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-j1UYYv'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-L7f08t
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19e74/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19e74.dir/build.make CMakeFiles/cmTC_19e74.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-L7f08t'
+Building C object CMakeFiles/cmTC_19e74.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_19e74.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-L7f08t/CheckIncludeFile.c
+Linking C executable cmTC_19e74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e74.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_19e74.dir/CheckIncludeFile.c.o -o cmTC_19e74 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-L7f08t'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-r3PAR6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88afe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88afe.dir/build.make CMakeFiles/cmTC_88afe.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-r3PAR6'
+Building C object CMakeFiles/cmTC_88afe.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_88afe.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-r3PAR6/CheckIncludeFile.c
+Linking C executable cmTC_88afe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88afe.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_88afe.dir/CheckIncludeFile.c.o -o cmTC_88afe 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-r3PAR6'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-lX6hOa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6dd49/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6dd49.dir/build.make CMakeFiles/cmTC_6dd49.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-lX6hOa'
+Building C object CMakeFiles/cmTC_6dd49.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6dd49.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-lX6hOa/CheckIncludeFile.c
+Linking C executable cmTC_6dd49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dd49.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6dd49.dir/CheckIncludeFile.c.o -o cmTC_6dd49 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-lX6hOa'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-h7E5UX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef81a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef81a.dir/build.make CMakeFiles/cmTC_ef81a.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-h7E5UX'
+Building C object CMakeFiles/cmTC_ef81a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ef81a.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-h7E5UX/CheckIncludeFile.c
+Linking C executable cmTC_ef81a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef81a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_ef81a.dir/CheckIncludeFile.c.o -o cmTC_ef81a 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-h7E5UX'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0tW0sN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21e83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21e83.dir/build.make CMakeFiles/cmTC_21e83.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0tW0sN'
+Building C object CMakeFiles/cmTC_21e83.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_21e83.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0tW0sN/CheckIncludeFile.c
+Linking C executable cmTC_21e83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21e83.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_21e83.dir/CheckIncludeFile.c.o -o cmTC_21e83 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-0tW0sN'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dOsb0n
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3256a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3256a.dir/build.make CMakeFiles/cmTC_3256a.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dOsb0n'
+Building C object CMakeFiles/cmTC_3256a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_3256a.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dOsb0n/CheckIncludeFile.c
+Linking C executable cmTC_3256a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3256a.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3256a.dir/CheckIncludeFile.c.o -o cmTC_3256a 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-dOsb0n'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uLi7Wt
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19b80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19b80.dir/build.make CMakeFiles/cmTC_19b80.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uLi7Wt'
+Building C object CMakeFiles/cmTC_19b80.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_19b80.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uLi7Wt/CheckIncludeFile.c
+Linking C executable cmTC_19b80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19b80.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_19b80.dir/CheckIncludeFile.c.o -o cmTC_19b80 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-uLi7Wt'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yQYTPY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33faa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33faa.dir/build.make CMakeFiles/cmTC_33faa.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yQYTPY'
+Building C object CMakeFiles/cmTC_33faa.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_33faa.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yQYTPY/CheckIncludeFile.c
+Linking C executable cmTC_33faa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33faa.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_33faa.dir/CheckIncludeFile.c.o -o cmTC_33faa 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-yQYTPY'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-kac826
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96711/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96711.dir/build.make CMakeFiles/cmTC_96711.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-kac826'
+Building C object CMakeFiles/cmTC_96711.dir/OPJ_HAVE_MALLOC_H.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_96711.dir/OPJ_HAVE_MALLOC_H.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-kac826/OPJ_HAVE_MALLOC_H.c
+Linking C executable cmTC_96711
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96711.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_96711.dir/OPJ_HAVE_MALLOC_H.c.o -o cmTC_96711 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-kac826'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MBDxX3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6c25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6c25.dir/build.make CMakeFiles/cmTC_b6c25.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MBDxX3'
+Building C object CMakeFiles/cmTC_b6c25.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b6c25.dir/CheckSymbolExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MBDxX3/CheckSymbolExists.c
+Linking C executable cmTC_b6c25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c25.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_b6c25.dir/CheckSymbolExists.c.o -o cmTC_b6c25 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-MBDxX3'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-jtqYzM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1acf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1acf3.dir/build.make CMakeFiles/cmTC_1acf3.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-jtqYzM'
+Building C object CMakeFiles/cmTC_1acf3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1acf3.dir/CheckSymbolExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-jtqYzM/CheckSymbolExists.c
+Linking C executable cmTC_1acf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1acf3.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1acf3.dir/CheckSymbolExists.c.o -o cmTC_1acf3 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-jtqYzM'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-YtvIYY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2e02/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2e02.dir/build.make CMakeFiles/cmTC_c2e02.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-YtvIYY'
+Building C object CMakeFiles/cmTC_c2e02.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_c2e02.dir/src.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-YtvIYY/src.c
+Linking C executable cmTC_c2e02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2e02.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-undef -Wno-strict-prototypes -Wno-cast-function-type -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c2e02.dir/src.c.o -o cmTC_c2e02 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-YtvIYY'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tNz9T3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_607b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_607b6.dir/build.make CMakeFiles/cmTC_607b6.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tNz9T3'
+Building C object CMakeFiles/cmTC_607b6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_607b6.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tNz9T3/CheckIncludeFile.c
+Linking C executable cmTC_607b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_607b6.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_607b6.dir/CheckIncludeFile.c.o -o cmTC_607b6 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-tNz9T3'
+
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Dhg1wS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1640/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1640.dir/build.make CMakeFiles/cmTC_f1640.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Dhg1wS'
+Building C object CMakeFiles/cmTC_f1640.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f1640.dir/CheckFunctionExists.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Dhg1wS/CheckFunctionExists.c
+Linking C executable cmTC_f1640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1640.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f1640.dir/CheckFunctionExists.c.o -o cmTC_f1640  -ldl 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-Dhg1wS'
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-OaI1hw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6cae6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6cae6.dir/build.make CMakeFiles/cmTC_6cae6.dir/build
+gmake[1]: Entering directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-OaI1hw'
+Building C object CMakeFiles/cmTC_6cae6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6cae6.dir/CheckIncludeFile.c.o -c /home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-OaI1hw/CheckIncludeFile.c
+Linking C executable cmTC_6cae6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cae6.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6cae6.dir/CheckIncludeFile.c.o -o cmTC_6cae6 
+gmake[1]: Leaving directory '/home/rainman/Documents/build/CMakeFiles/CMakeScratch/TryCompile-OaI1hw'
+
+
+
